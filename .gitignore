@@ -1,0 +1,31 @@
+# 🔒 Environment & Config (MOST IMPORTANT)
+/config/
+/includes/config.php
+.env
+.env.*
+
+# 🗄️ Database
+*.sql
+
+# 📁 User Uploads
+/uploads/
+
+# ⚙️ Logs & Temp
+*.log
+/tmp/
+
+# 🧪 Testing Files
+test.php
+
+# 🧰 IDE / Editor
+.vscode/
+.idea/
+
+# 🖥️ System Files
+.DS_Store
+Thumbs.db
+
+# 📦 Backups
+*.zip
+*.tar
+*.gz

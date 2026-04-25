@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+/* BACKGROUND ONLY */
+body{
+    min-height:100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+/* CENTER WRAPPER */
+.wrapper{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+/* BRAND */
+.brand{
+    position:absolute;
+    top:20px;
+    left:30px;
+    color:white;
+    font-weight:600;
+    font-size:18px;
+    opacity:0.9;
+}
+
+/* CARD */
+.card{
+    width:380px;
+    padding:35px;
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(20px);
+    border-radius:20px;
+    box-shadow:0 10px 40px rgba(0,0,0,0.3);
+    color:white;
+    text-align:center;
+    animation:fadeIn 0.8s ease-in-out;
+}
+
+/* ANIMATION */
+@keyframes fadeIn{
+    from{opacity:0; transform:translateY(20px);}
+    to{opacity:1; transform:translateY(0);}
+}
+
+/* INPUTS */
+input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:none;
+    border-radius:10px;
+    outline:none;
+}
+
+/* BUTTON */
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    background:#00c6ff;
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#0072ff;
+    transform:scale(1.03);
+}
+
+/* LINKS */
+a{
+    color:#00c6ff;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+/* TEXT */
+.text{
+    margin-top:15px;
+    font-size:14px;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+    .card{
+        width:95%;
+    }
+}
