@@ -75,10 +75,10 @@ text
 
 1. **Clone the repository**
    
-   git clone https://github.com/laibadilshad55-sys/medical-credentialing.git
+   git clone https://github.com/laibadilshad55-sys/DHC-1.git
 Move to htdocs
 
-mv medical-credentialing C:/xampp/htdocs/
+mv DHC-1 C:/xampp/htdocs/
 Create database
 
 Open phpMyAdmin: http://localhost/phpmyadmin
@@ -98,7 +98,7 @@ Run the application
 
 Start Apache & MySQL in XAMPP
 
-Visit: http://localhost/medical_credentialing
+Visit: http://localhost/DHC-1
 
 
 📊 Application Workflow
